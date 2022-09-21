@@ -1,0 +1,43 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    /*letter-spacing: .5em;*/
+    top: 15%;
+	background: linear-gradient(to right, blue , pink   ); /* Standard syntax */
+}
+
+h1,h2  {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+h2,p{
+    font: 400 1.5em 'Raleway', sans-serif;
+}
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.myName{
+    font: 550 1em sans-serif;
+    text-align: center;
+    
+
+    position: fixed;
+    bottom: 15px;
+    right: 0px;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    transform: translate(-50%,50%)
+
+}
